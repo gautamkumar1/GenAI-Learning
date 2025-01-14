@@ -1,0 +1,29 @@
+LangChain is a framework designed to simplify the development of applications that leverage large language models (LLMs) like OpenAI’s GPT, Google’s Bard, and others. It focuses on enabling developers to create data-aware and agent-driven applications that can integrate seamlessly with custom workflows, external tools, and structured data sources.
+
+Key Features of LangChain
+Chains:
+
+Combines multiple LLM calls and other logic into a single sequence or workflow.
+Example: Querying a database, summarizing the data, and generating a user-friendly response.
+Agents:
+
+Allows applications to dynamically make decisions about which actions to take next based on user input or context.
+Example: Querying an API, fetching documents, or interacting with external tools like search engines or calculators.
+Memory:
+
+Adds the ability to maintain conversational state over time.
+Useful for chatbots or applications requiring context persistence across interactions.
+Data Integration:
+
+Facilitates connecting LLMs to external knowledge sources, including databases, APIs, and local files, to enrich responses.
+Example: Answering queries using company-specific documentation or real-time data.
+Prompt Templates:
+
+Provides utilities to dynamically construct prompts based on user input and other contextual information.
+Supports modular and reusable prompt engineering.
+Tool Integration:
+
+LangChain can work with various tools such as:
+Search Engines: To fetch real-time information.
+Python Functions: To perform calculations or complex tasks.
+APIs: To interact with external systems.
